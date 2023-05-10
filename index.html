@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!–– ETIQUETEAS INFORMATIVAS ––>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ENCRIPTADOR</title>
+</head>
+
+
+<body>
+
+	 <!–– ETIQUETEAS DE CONTENIDO––>
+<header>
+<!--Logotipo-->
+<!--<h1><img src="IMAGENES/logo-1.png"></h1>-->
+<h3>Alura + Oracle</h3>
+</header>
+
+
+    <main>
+        <div class="bloque1 bloque"> 
+		
+			<!--Ingresar datos a incriptar-->
+            <textarea class="text-area" id="Entrada" cols="30"  rows="10" placeholder="Ingrese el texto aquí!!"></textarea>
+            
+			<!--Mensaje informativo condicional-->
+			<div class="informacion">
+                <p>&#9730 Solo letras  minúsculas y sin acentos</p>
+            </div>
+
+			<!--Mensajes Botones encriptar y desencriptar-->
+            <div class="botones">
+                <button class="btn-encriptar" id="btnEncriptar" >Encriptar</button>
+                <button class="btn-desencriptar" id="btnDesencriptar" >Desencriptar</button>
+            </div>
+        </div>
+    
+        <div class="bloque2 bloque">
+			<!--Mensajes primarios-->            
+			<img id="muneco"  src="IMAGENES/muneco/Muñeco.png">
+            <h2 id="titulo" >Ningún mensaje fue encontrado</h2>
+            <p id="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+			
+			<!--Mensajes de salida ocultos-->
+            <textarea id="Salida" cols="5" rows="3" class="mensaje hide" placeholder=""> </textarea>            
+			<h2 id="titulo2" class="mensaje hide">Mensaje encriptado con exito :v</h2>
+			<img id="muneco2" class="mensaje hide" src="IMAGENES/cora.png">
+			
+			<!--Boton Copiar oculto-->
+			<div class="botonCop">
+            <button id="btnCopiar" class="btn-copiar hide">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+<footer>
+<!--pie de pagina-->
+<p>&copy Copyright Arris -2023</p>
+</footer>
+
+<!--Direccionamiento al archivo de javascript-->
+ <script src="JS/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+
+html{
+    font-size: 62.5%;
+
+}
+
+header {
+    padding: 25px 0 0 35px;
+	background-color: #0a3871;
+
+}
+
+header h3{
+	color:white;
+	font-size: 45px;
+	font-family: Cursive;
+	padding-bottom: 20px;
+}
+
+body {
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f5fc;
+    gap: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+main {
+    flex: 1 1 90%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    place-items: center;
+    gap: 15px;
+}
+
+.bloque{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	font-family:Cursive;
+	font-size:20px;
+}
+
+.bloque1{
+    grid-column: 2 / 8;
+}
+
+
+.text-area{
+    font-size: 3.2rem;
+    color: #0a3871;   
+    background-color: #f3f5fc;
+    resize: none; 
+    outline: none;
+    border: none; 
+}
+
+::placeholder{
+    color: #0a3871;
+    font-size: 3.2rem;
+    
+}
+
+.informacion{
+    display: flex;
+    color: #495057;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height:150%;
+    opacity: 0.8;
+    padding: 1rem;
+}
+
+
+/*Botones*/
+.botones{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.btn-encriptar{
+    color: #e5e5e5;
+    background-color: #0a3871;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border: #0a3871 solid 1px;
+    border-radius: 24px;
+    font-size: 1.6rem; 
+    cursor: pointer;   
+}
+
+.btn-desencriptar{
+    color: #0a3871;
+    background-color: #d8dfe8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border: #0a3871 solid 1px;
+    border-radius: 24px;
+    font-size: 1.6rem; 
+    cursor: pointer;   
+}
+
+.btn-copiar{
+    color: #0a3871;
+    background-color: #d8dfe8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border: #0a3871 solid 1px;
+    border-radius: 24px;
+    font-size: 1.6rem; 
+    cursor: pointer;
+    
+}
+
+
+.bloque2{
+    grid-column: 9 / 12;    
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 4rem;
+    width: 40rem;
+	margin-top: 40px;
+    
+}
+.bloque2 h2{
+    color: #343a40;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 120%;
+    text-align: center;    
+}
+.bloque2 p{    
+    color: #495057;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+    text-align: center; 
+}
+
+.bloque2 img{
+    height: 304;
+}
+
+.bloque2 textarea{
+    font-size: 3.2rem;
+    text-align: center;
+    color: #609ed4;
+}
+
+.botonCop{
+    display: flex; 
+    justify-content: center; 
+    
+}
+
+.mensaje{    
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.hide{
+    display: none;
+}
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+    color: #ffffff;
+    background-color: #0a3871;
+}
+
+footer p{
+    
+    font-size: 20px;
+    margin-left: 2rem;
+    color: #ffffff;
+    
+}
+
+a:visited{
+    color: #ffffff;
+}
+.enlaces a:hover{
+    color: #547296;
+}
